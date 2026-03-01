@@ -1,124 +1,94 @@
 # Aryan Madhur Hamine
 
-Building scalable systems at the intersection of AI, distributed infrastructure, and real-world impact.
+Designing and building AI systems — and the infrastructure that makes them reliable.
 
 MS Computer Science @ UC Davis  
 Former SDE-II @ CrelioHealth (Healthcare SaaS at scale)  
-Focused on Applied AI, Backend Architecture, and AI Systems Engineering  
+Focused on AI Infrastructure, Distributed Systems, and Production-Grade Backend Engineering  
 
 ---
 
-## 🚀 What I Work On
+## 🛰 Aura — AI Observability & Reliability Platform (Building)
 
-- Architecting production-grade backend systems
-- Event-driven integrations & reliability engineering
-- AI-powered applications and LLM-based systems
-- Distributed data systems & database design
-- Developer tooling and extensible system design
+An observability layer for LLM-powered systems.
 
----
+Modern AI apps lack visibility — Aura aims to fix that.
 
-## 🧠 Flagship Projects
+• End-to-end tracing for LLM pipelines  
+• Latency, token usage, and cost monitoring  
+• Structured logging of model behavior  
+• Failure detection and retry analysis  
+• Pluggable adapters for different LLM backends  
 
-### A.L.A.N — Advanced Logic and Associative Neural-net
-Modular AI assistant engineered for extensibility and autonomous routines.
-
-- Wake word detection (Porcupine)
-- STT via Whisper
-- LLM inference via Groq (Mixtral) + LangChain
-- TTS via Edge TTS
-- Session + persistent memory
-- Ports & Adapters architecture (swap-in engines for STT/TTS/LLM)
-
-Designed as a systems project, not a demo — structured cognition, inference, memory, and event modules for long-term extensibility.
-
-→ Focus: AI system orchestration, modular architecture, extensible design
+Inspired by real production reliability challenges in AI systems.  
+Focus: visibility, debuggability, performance tuning.
 
 ---
 
-### Storage Manager @ CrelioHealth
-Unified Django REST service handling 1M+ uploads.
+## 🧠 A.L.A.N — Modular AI Assistant Engine
 
-- Elasticsearch indexing
-- MySQL lab tracking
-- 40% faster throughput
-- Full upload traceability
+A systems-first personal AI assistant built for extensibility, not demos.
 
-Built for scale, observability, and reliability in medical imaging workflows.
+• Wake word detection (Porcupine)  
+• STT via Whisper  
+• LLM inference via Groq (Mixtral) + LangChain  
+• TTS via Edge TTS  
+• Session + persistent memory  
+• Ports & Adapters architecture (engine-agnostic design)  
 
----
-
-### PACS/DICOM Secure Sharing Portal
-Enabled 10k+ patients/month to access medical imaging securely.
-
-- Authenticated expiring links
-- Audit logging
-- Reduced support tickets by 30%
-
-Bridging healthcare compliance and user experience.
+Structured into cognition, inference, memory, and event modules to enable autonomous routines and long-term extensibility.
 
 ---
 
-### SmashingBugs — Ticket Tracking Platform
-Full-stack production-style architecture.
+## 🏥 Production Systems @ CrelioHealth
 
-- Django REST Framework backend
-- JWT + Role-Based Access Control
-- PostgreSQL + Dockerized environments
-- React frontend
+### Storage Manager
+Unified Django REST service handling 1M+ uploads.  
+40% faster throughput. Full upload traceability.  
+Elasticsearch indexing + MySQL-backed lab tracking.
 
-Designed with clean API boundaries and reproducible builds.
+### Secure PACS/DICOM Sharing Portal
+Enabled 10k+ patients/month to access medical imaging securely.  
+Reduced support tickets by 30% through authenticated links + audit logging.
 
----
-
-### Drug Supply Chain on Decentralized Network
-Web3 system for secure supply-chain transactions.
-
-- Smart contracts in Solidity
-- Node.js backend + MongoDB
-- React frontend
-- Published in IJEECS (Jan 2024)
-
-Explored trust, traceability, and distributed consensus models.
+### Event-Driven Reliability Improvements
+Replaced brittle Mirth-based retry flows with a Django + DocumentDB integration dashboard and AWS EventBridge scheduling.  
+Improved integration reliability by 95% and saved 20+ engineering hours weekly.
 
 ---
 
-## 🏗 Architecture & Engineering Interests
+## 🏗 Selected Systems Projects
 
-- Distributed systems
-- Event-driven architecture
-- Reliability engineering
-- LLM system design
-- Data modeling at scale
-- AI + healthcare systems
+**SmashingBugs — Ticketing Platform**  
+Django REST + JWT + RBAC · PostgreSQL · Dockerized architecture · React frontend  
+
+**Drug Supply Chain on Decentralized Network**  
+Solidity smart contracts · Node.js backend · MongoDB · React  
+Published in IJEECS (Jan 2024)
+
+---
+
+## ⚙️ Engineering Interests
+
+AI infrastructure  
+Distributed databases  
+Event-driven systems  
+Reliability engineering  
+Data modeling at scale  
+AI + healthcare systems  
 
 ---
 
 ## 🛠 Tech Stack
 
-**Languages**  
 Python · TypeScript · JavaScript · Java · Solidity  
-
-**Backend & Infra**  
-Django · Node.js · Express · Redis · PostgreSQL · MySQL · MongoDB · Elasticsearch  
-
-**Cloud & DevOps**  
+Django · Node.js · Express · React  
+PostgreSQL · MySQL · MongoDB · Redis · Elasticsearch  
 AWS (S3, Lambda) · Docker · GitHub Actions  
-
-**AI & ML**  
-LLMs · LangChain · Whisper · Mixtral (Groq)  
+LLMs · LangChain · Whisper · Mixtral (Groq)
 
 ---
 
-## 📍 Currently
-
-- Building ALAN v2 with modular cognition + memory layers
-- Studying Distributed Database Systems
-- Exploring applied AI systems in healthcare & infrastructure
-
----
-
-## 📫 Connect
-
-LinkedIn: linkedin.com/in/aryan-hamine  
-Email: haminearyan@gmail.com
+Currently building:
+• Aura (AI observability)  
+• ALAN v2 (modular cognition + memory layers)
